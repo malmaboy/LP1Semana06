@@ -5,9 +5,6 @@ namespace NPCPerks
 {
     class Program
     {
-        private  Perks[] perksToAdd;
-        private Perks perk;
-        
         static void Main(string[] args)
         {
             Program p;
@@ -17,58 +14,58 @@ namespace NPCPerks
         
         private void Run()
         {
-            Console.WriteLine("Insert the number of NPCs");
+            int n = 1;
+            Console.WriteLine("Insert the number of npcs");
             int npcsNumber = Int32.Parse(Console.ReadLine());
 
-            Perks[][] asd = new Perks[npcsNumber][];
-            
-            
-            // Add perks to NPCs
-            for (int i = 0; i < asd.Length; i++)
-            {
-                asd[i] = perksToAdd;
-                Console.WriteLine($"Hello {asd[i]}");
-            }
-            
+            Perks[] perksList = new Perks[npcsNumber];
 
-            foreach (var p in asd)
+            for (int i = 0; i < npcsNumber; i++)
             {
                 
-            }
-            
-            
-            // Compare 
+                Console.WriteLine("Insert the number of perks by spaces [Stealth] [Combat] [Lockpick] [Luck] :");
 
-            /*
-            foreach (Perks[] npc in asd)
-            {
-                foreach (var p in npc)
+                string[] perks = Console.ReadLine().ToLower().Split( ' ');
+
+                
+
+                for (int j = 0; j < perks.Length; j++)
                 {
-                    p.
+                    switch (perks[j])
+                    {
+                        case "stealth":
+                            perksList[i] = Perks.Stealth;
+                            break;
+                        case "combat":
+                            perksList[i] = Perks.Combat;
+                            break;
+                        case "lockpick":
+                            perksList[i] = Perks.Lockpick;
+                            break;
+                        case "luck":
+                            perksList[i] = Perks.Luck;
+                            break;
+                        default:
+                            Console.WriteLine("Unknown value!");
+                            break;
+                    }
+
+                    
                 }
-            }*/
+
+                
+            }
+
+            for (int i = 0; i < npcsNumber; i++)
+            {
+                Console.WriteLine($"NPC has {i} has {perksList[i]}");
+            }
+
+
+
 
         }
 
-        private Perks Method()
-        {
-            string perks = Console.ReadLine();
-
-
-            if (perks == "Stealth")
-                return perk = Perks.Stealth;
-            
-            if (perks == "Combat")
-                 return perk = Perks.Combat;
-            
-            if (perks == "Lockpick")
-                return perk = Perks.Lockpick;
-            
-            if (perks == "Luck")
-                return perk = Perks.Luck;
-
-            return 0;
-        }
     }
     
     
@@ -77,8 +74,8 @@ namespace NPCPerks
 [Flags]
 enum Perks
 {
-    Stealth = 0,
-    Combat = 1,
-    Lockpick = 2,
-    Luck = 4
+    Stealth = 1,
+    Combat = 2,
+    Lockpick = 4,
+    Luck = 8
 }

@@ -39,12 +39,18 @@ namespace ArrayBiDim
 
                     dimX = i;
                     dimY = j;
+                    
+                    // Shows the array 
+                    Console.WriteLine(
+                        $"Position [{dimX}, {dimY}] = {arrayBi[dimX, dimY].ToString()}");
+                   
                 }
+               
             }
 
-            // Shows the array 
-            Console.WriteLine(
-                $"Position [{dimX}, {dimY}] = {arrayBi[dimX, dimY].ToString()}");
+         
+
+            
 
 
             // Average per row
