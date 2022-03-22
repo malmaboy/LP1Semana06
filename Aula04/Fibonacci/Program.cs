@@ -8,10 +8,18 @@ namespace Fibonacci
         {
             Program p;
             p = new Program();
-            Console.WriteLine("Insert the number for fibonacci");
-            int number = Int32.Parse(Console.ReadLine());
-            Console.WriteLine(p.Fibonacci(number));
-            
+
+            if (args.Length > 0)
+            {
+                int aux = Int32.Parse(args[0]);
+                Console.WriteLine(p.Fibonacci(aux));
+            }
+            else
+            {
+                Console.WriteLine("Insert the number for fibonacci");
+                int number = Int32.Parse(Console.ReadLine());
+                Console.WriteLine(p.Fibonacci(number));
+            }
         }
 
         private int Fibonacci(int _n)
