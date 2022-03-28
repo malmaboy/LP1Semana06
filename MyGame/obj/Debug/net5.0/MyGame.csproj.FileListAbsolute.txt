@@ -1,0 +1,15 @@
+/Users/hugocarvalho/Desktop/Faculdade/LP1/LP1Semana06/MyGame/bin/Debug/net5.0/MyGame.deps.json
+/Users/hugocarvalho/Desktop/Faculdade/LP1/LP1Semana06/MyGame/bin/Debug/net5.0/MyGame.runtimeconfig.json
+/Users/hugocarvalho/Desktop/Faculdade/LP1/LP1Semana06/MyGame/bin/Debug/net5.0/MyGame.runtimeconfig.dev.json
+/Users/hugocarvalho/Desktop/Faculdade/LP1/LP1Semana06/MyGame/bin/Debug/net5.0/MyGame.dll
+/Users/hugocarvalho/Desktop/Faculdade/LP1/LP1Semana06/MyGame/bin/Debug/net5.0/ref/MyGame.dll
+/Users/hugocarvalho/Desktop/Faculdade/LP1/LP1Semana06/MyGame/bin/Debug/net5.0/MyGame.pdb
+/Users/hugocarvalho/Desktop/Faculdade/LP1/LP1Semana06/MyGame/obj/Debug/net5.0/MyGame.csprojAssemblyReference.cache
+/Users/hugocarvalho/Desktop/Faculdade/LP1/LP1Semana06/MyGame/obj/Debug/net5.0/MyGame.GeneratedMSBuildEditorConfig.editorconfig
+/Users/hugocarvalho/Desktop/Faculdade/LP1/LP1Semana06/MyGame/obj/Debug/net5.0/MyGame.AssemblyInfoInputs.cache
+/Users/hugocarvalho/Desktop/Faculdade/LP1/LP1Semana06/MyGame/obj/Debug/net5.0/MyGame.AssemblyInfo.cs
+/Users/hugocarvalho/Desktop/Faculdade/LP1/LP1Semana06/MyGame/obj/Debug/net5.0/MyGame.csproj.CoreCompileInputs.cache
+/Users/hugocarvalho/Desktop/Faculdade/LP1/LP1Semana06/MyGame/obj/Debug/net5.0/MyGame.dll
+/Users/hugocarvalho/Desktop/Faculdade/LP1/LP1Semana06/MyGame/obj/Debug/net5.0/ref/MyGame.dll
+/Users/hugocarvalho/Desktop/Faculdade/LP1/LP1Semana06/MyGame/obj/Debug/net5.0/MyGame.pdb
+/Users/hugocarvalho/Desktop/Faculdade/LP1/LP1Semana06/MyGame/obj/Debug/net5.0/MyGame.genruntimeconfig.cache
